@@ -54,8 +54,23 @@ async def checkfile(fileName):
     df['xFanTV'] = results
     df.to_excel(f"{fileName}_lan2.xlsx", index=False)
 
+
+
+
+
+
+
+
+
+
+
+# nhập danh sách file cần kiểm tra
 file_list = [
-    'updated_data.xlsx'
+    'may1.xlsx',
+    'may2.xlsx',
+    'may3.xlsx',
+    'may4.xlsx',
+    'may5.xlsx',
 ]
 
 for file in file_list:
